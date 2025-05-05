@@ -1,0 +1,20 @@
+{
+  "name": "flipflop",
+  "version": "0.1.0",
+  "description": "Alignment-tree duality traversal library.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "tsx examples/openai-demo.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "openai": "^4.97.0"
+  }
+}
