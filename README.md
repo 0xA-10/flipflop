@@ -25,6 +25,8 @@ console.log(root.payload); // synthesized abstraction
 
 ## Usage
 
+Warning!!! These prompts cost a lot of money to run, $2-$3 per run at time of writing.
+
 ```sh
 npm install
 npm run build
